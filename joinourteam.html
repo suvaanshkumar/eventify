@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>Eventify</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="events social">
+        <meta name="keywords" content="events,social,nearby,music,cultural">
+        <link href="images/fevicon.ico" rel="shortcut icon" />
+        <link href="style/normalize.css" rel="stylesheet" />
+        <link href="style/aboutUs.css" rel="stylesheet" />
+    </head>
+    <body onload="validdateform()">
+        
+        <!--creating a div for everything-->
+        <div id="wrapper" > 
+                <!--<div id="imagebanner">
+                        <img src="../project task list4/images/getout.jpg" alt="">
+                    </div> -->
+            <!--constatnct header -->
+            <header>
+                <img src="images/d9bmlzljnidhjv2qch9p.webp" alt="logo">
+                <!--<h3>Eventify your world...</h3>-->
+            </header>
+           
+            <!--nav for internal navigation has to be constant for all-->
+            <nav>
+                <ul id="navul">
+                    <li><a href="categories.html">Home</a></li>
+                    <li><a href="collection.html">Events</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                </ul>
+            </nav>
+            <main>
+                <!--form image-->
+                <div id="joinimg"></div>
+                <!--form begin-->
+                <div class="form-joinus">
+                    <div class="form-joinus-heading">Provide your information To Join Our team</div>
+                    <form method="post">
+                    <label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" id="field1" value="" /><span></span></label>
+                    <label for="field2"><span>Email <span class="required">*</span></span><input type="text" class="input-field" id="field2" name="field2" value="" /><span></span></label>
+                    <label><span>Telephone</span>+1<input type="text" class="tel-number-field" name="tel" id="tel" value="" maxlength="10" style="width: auto;"/><span></span></label>
+                    <label for="field4"><span>Join our team as a :</span><select name="field4" id="field4" class="select-field">
+                    <option value="operations Associate">operations Associate</option>
+                    <option value="Sponsors">Sponsors</option>
+                    <option value="Partnership">Partnership</option>
+                    </select><span></span></label>
+                    <label for="fileinput"><span>Upload an image </span><input type="file" onchange="loadFile(event)" accept="image/*" name="fileinput" id="fileinput" ><span></span></label>
+                    <label><span></span><input type="button" id="submit" value="Submit" onclick="validdateform()"/><span></span></label>
+                    </form>
+                    </div>
+                    <!--form-->
+                    <p><img id="output" width="100px" /></p>
+
+                    <img src="images/OurteamPanel1.JPG" id="ourteampanel" alt="">
+                    <!-- displayiong our team-->
+                    <div class="grid-containerOurteam" id="Our Team">
+                        <div class="grid-itemOurteam">
+                                <div class="gridItem-containerourteamforimage">
+                                    <img src="images/mary.jpg" alt="mary" class="imagegriditemourteam">
+                                    <div class="overlayourteam">
+                                    <div class="textOurTeam">Mary:associate</div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="grid-itemOurteam">
+                                <div class="gridItem-containerourteamforimage">
+                                    <img src="images/keele.jpg" alt="mary" class="imagegriditemourteam">
+                                    <div class="overlayourteam">
+                                    <div class="textOurTeam">Keele:project Manager</div>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        <div class="grid-itemOurteam"><div class="grid-itemOurteam">
+                                <div class="gridItem-containerourteamforimage">
+                                    <img src="images/kendel.jpg" alt="Kendel" class="imagegriditemourteam">
+                                    <div class="overlayourteam">
+                                    <div class="textOurTeam">Kendel:project Lead</div>
+                                    </div>
+                                </div>
+                    </div>
+                <div>
+            </main>
+           
+            <!--constant footer-->
+            
+            <footer>
+                <div id="flex-container">   
+
+                    <ul>
+                        <li><a href="events_form.html">Events Form</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li> <a href="feedback.html">Feedback</a></li>
+                        <li><a href="tickets.html">Tickets</a> </li>
+                        <li><a href="transit.html">Transit</a></li>
+                        <li><a href="dos.html">Regulations</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li> <a href="index.html">Signup</a></li>
+                        <li><a href="categories.html">Categories</a> </li>
+                    </ul>
+                    © 2019 Eventify!
+                </div>
+            </footer>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="./validate.js">
+        </script>
+    </body>
+
+</html>

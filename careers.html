@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>project-Lab-04</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="events social">
+        <meta name="keywords" content="events,social,nearby,music,cultural">
+        <link href="images/fevicon.ico" rel="shortcut icon" />
+        <!--<link href="style/normalize.css" rel="stylesheet" />-->
+        <link href="style/careers.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+        
+
+
+    </head>
+    <body>
+        <div id="wrapper" > 
+                <!--<div id="imagebanner">
+                        <img src="../project task list4/images/getout.jpg" alt="">
+                    </div> -->
+            <header>
+              <h3> Careers At Eventify</h3>
+              <img src="images/d9bmlzljnidhjv2qch9p.webp" alt="logo">
+              
+                      <!--<h3>Eventify your world...</h3>-->
+            
+            </header>
+            <nav>
+                <ul id="navul">
+                    <li><a href="categories.html">Home</a></li>
+                    <li><a href="collection.html">Events</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                </ul>
+            </nav>
+            
+            
+            <main>
+                <div class="banner text-center">
+                <div class="aa">
+                <div class="container">
+                <h3 class="text-center text-success "> APPLY FOR JOB</h3>
+                <div class="col-lg-8 m-auto d-block">
+                    <form action="#" onsubmit=" return validation() " >
+                       
+                        <label for="name"> Name  </label>
+                        <input type="text" name="name" id="name" placeholder=" &nbsp; Enter Name..." class="form-control">
+                        <span class="text-danger font-weight-bold" id="username"></span>
+                       <br>
+                        
+                        <label for="phone"> Phone </label>
+                        <input type="text" name="phone" id="phone" placeholder=" &nbsp; Enter Phone..." class="form-control">
+                        <span class="text-danger font-weight-bold" id="mnumber"></span>
+                        <br>
+                         
+                        <label for="email"> Email </label>
+                        <input type="text" name="email" id="email" placeholder="&nbsp; Enter Email..." class="form-control">
+                        <span class="text-danger font-weight-bold" id="emails"></span>
+                        <br>
+                         <label for="position">Position you are applying for</label> 
+                         <input type="text" id="position" placeholder="&nbsp; Position..." class="form-control">
+                         <span class="text-danger font-weight-bold" id="positions"></span>
+                        <br>
+
+                        <input type="submit" value="Submit" id="btn" class="btn btn-success">
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+                       <h1> What's your next <br>destination? </h1>
+                       </div>
+                <div class= "searchtable">   
+                    <div class="search-job text-center">
+                    <input type="text" class="form-control" id="myInput" placeholder="Search by Job Title....." name="search"  maxlength="300" onkeyup="searchFun()">
+                    <input type="button" class="btn btn-primary" id="btnContact" value="Search" /></div>
+                
+                <table cellspacing="20" id="myTable">
+                    <thead>
+                        <tr>
+                          <th id="JB" scope="col">Job Title</th>
+                          <th id="LO" scope="col">Location</th>
+                          <th id="VC" scope="col">Vacancies</th>
+                        </tr>
+                    </thead>
+                              
+                    <tbody>
+                        <tr>
+                          <td headers="JB"><h6> <a href="#info">Account Manager</a> </h3><div class="info">
+                              <h5><b>SKILL SET AND QUALIFICATIONS</b> </h6> 
+                              - High School Diploma<br>
+                              - 3 years of inside sales experience<br>
+                              - Excellent communication skills, both written and oral<br>
+                              - Must be comfortable making outbound calls and cold calling<br>
+                              - Must be influential and customer service driven<br>
+                              - Material handling or automotive manufacturing industry experience preferred but not a prerequisite
+                         </td>
+                          <td headers="LO">Cornwell</td>
+                          <td headers="VC">3</td> </div>
+                        </tr>
+                        <tr>
+                            <td headers="JB"><h6><a href="#info">Android Developer</a></h6><div class="info">
+                                <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                                - Bachelor's Degree<br>
+                                - Experience with RX/RXAndroid, RXSwift, Retrofit, Dagger 2 , Android Components, Espresso, Robolectric<br>
+                                - At least 5 years of experience with distributed version control systems (git or mercurial)<br>
+                                - At least 5 years of Android development<br>
+                                - At least 5 years of Java development
+                                </td>
+                            <td headers="LO">Hamilton</td>
+                            <td headers="VC">1</td> </div>
+                        </tr>
+                        <tr>
+                            <td headers="JB"> <h6> <a href="#info">Business Development Manager</a> </h6> <div class="info">
+                                <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                           - A Degree in Engineering or Computer Science with proven sales experience or a Degree in Business, Marketing or related areas;<br>
+                           - 5+ years experience in selling enterprise-wide technology solutions<br>
+                           - Proven successful experience in new business development<br>
+                           - Experience in negotiating terms of client proposals and in successfully managing the end to end selling process<br>
+                           - Excellent communicator with outstanding presentation and negotiation skills<br>
+                           - Exceptional consultative sales approach</td>
+                            <td headers="LO">Kenora</td>
+                            <td headers="VC">5</td></div>
+                        </tr>
+                        <tr>
+                            <td headers><h6><a href="#info">Client Support Representative</a> </h6> <div class="info">
+                                <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5>
+                                - Experience in providing exceptional customer service/technical support<br>
+                                - Excellent written and oral communication skills<br>
+                                - Superior customer service skills and a genuine enthusiasm for helping others<br>
+                                - Strong computer skills with the ability to learn new software quickly<br>
+                                - Experience working in a fast-paced environment<br>
+                                - Detail-oriented approach with the ability to juggle multiple tasks simultaneously<br>
+                                - Positive attitude and diligent work ethic<br>
+                                - Ability to work well independently with minimal supervision</td>
+                            <td headers="LO">North Bay</td>
+                            <td headers="VC">1</td></div>
+                        </tr>
+                        <tr>
+                            <td headers="JB"> <h6> <a href="#info">Customer Experience Representative- French</a> </h6> <div class="info">
+                                <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5>
+                                - Bilingual in French and English<br>
+                                - 1 year work experience in a related role<br>
+                                - Proficient in Microsoft Office and Windows Operating System<br>
+                                - Demonstrated experience solving customer service inquiries<br>
+                                - Effective verbal and written communication skills<br>
+                                - Ability to work in a fast pace environment </td>
+                            <td headers="LO">Oshawa</td>
+                            <td headers="VC">2</td></div>
+                        </tr>
+                        <tr>
+                            <td headers="JB"> <h6> <a href="#info">Customer Experience Representative- English</a> </h6> <div class="info">
+                                <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                                - High school diploma or GED required.<br>
+                                - Six or more months of general office experience<br>
+                                - Demonstrates the ability to type a minimum of 40 wpm.<br>
+                                - Demonstrates general knowledge of Windows PC, Microsoft Word and Excel, and Outlook.<br>
+                                - Demonstrates strong organizational and interpersonal communication skills.</td>
+                            <td headers="LO">Peterborough</td>
+                            <td headers="VC">1</td></div>
+                        </tr>
+                        <tr>
+                            <td headers="JB"> <h6> <a href="#info">Marketing Manager</a> </h6> <div class="info">
+                                    <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                                - University degree or College diploma in Marketing, Communications, Business or a related field.<br>
+                                - Between 5 - 7 years’ experience in a channel marketing role driving B2C and B2B go-to-market strategies <br>
+                                &nbsp; &nbsp;within the wholesale, electrical distribution, or retail environment
+                                - Additional courses in Sales/Marketing, Digital marketing, Webpage Analytics is an asset<br>
+                                - Strong understanding of digital marketing, SEO, social media for business uses and e-commerce platforms<br>
+                                - Experience planning and managing multi-partner sell-in and sell-thru channel strategies.<br>
+                                - Solid relationship building and management skills, built from hands-on experience working with vendors and partners.<br>
+                                - Excellent organizational skills and ability to manage multiple projects in a fast-paced environment with changing requirements.<br>
+                                - Strong Microsoft Office skills.<br>
+                                - Self-directed, highly motivated individual with strong ability to see projects through from beginning to end. </td>
+                            <td headers="LO">Barrie</td>
+                            <td headers="VC">1</td></div>
+                        </tr>
+                        <tr>
+                            <td headers="JB"> <h6> <a href="#info">Procurement Director</a> </h6><div class="info">
+                                    <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                                - Minimum 10 to 15 years of procurement experience.<br>
+                                - Understanding of public and private procurement policies and procedures.<br>
+                                - Familiar with EPC/EPCM project lifecycle and engineered equipment manufacturing.<br>
+                                - Experience handling large and complex purchases and bid calls.<br>
+                                - Experience in strategic procurement planning and sourcing, vendor management and risk mitigation<br>
+                                - Strong analytical skills and sound judgement<br>
+                                - A team player and flexible self-starter<br>
+                                - Ability to communicate effectively, both verbally and in writing<br>
+                                - Ability to work under pressure and maintain effective procurement control mechanisms<br>
+                                - Ability to establish policies and procedures and evaluate program effectiveness<br>
+                                - Ability to prepare, justify and administer a budget<br>
+                                - Ability to supervise, evaluate, coach/mentor and develop staff and others </td>
+                            <td headers="LO">Brantford</td>
+                            <td headers="VC">2</td></div>
+                        </tr>
+                        <tr>
+                            <td headers="JB"> <h6> <a href="#info">Product Designer</a> </h6> <div class="info">
+                                <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                                - 3+ years of work experience in product design, UX research, or other relevant roles<br>
+                                - Prior experience with designing for both mobile and web platforms<br>
+                                - Prior experience with Adobe XD or equivalent (Sketch, Invision)<br>
+                                - Prior experience working in an agile-oriented organization </td>
+                            <td headers="LO">Markham</td>
+                            <td headers="VC">1</td></div>
+                        </tr>
+                        <tr>
+                            <td headers="JB"> <h6><a href="#info">Sales Manager</a> </h6><div class="info">
+                                <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                                - Bachelor’s degree in Engineering, Operations, or a related field.<br>
+                                - Over 3 years of management experience in a manufacturing, production or distribution environment.<br>
+                                - Experience in managing a team of 30+ employees also lead process improvements though Lean process, Kaizen, and Six Sigma.<br>
+                                - Ability to thrive in an ambiguous environment, and when given a deadline know how to motivate yourself and meet it.<br>
+                                - No hesitation in public speaking or writing a paper. Have strong verbal and written communication skills.<br>
+                                - Enjoy analytical work and using data to provide thought-provoking and workable solutions<br>
+                                - Volunteer to lead projects and help team to achieve goals.</td>
+                            <td headers="LO">Guelph</td>
+                            <td headers="VC">1</td></div>
+                        </tr>
+                        <tr>
+                            <td headers="JB"> <h6> <a href="#info">Senior Account Executive- Music</a> </h6><div class="info">
+                                <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                               - 3-5+ years of sales or relevant industry experience in online ticketing, sales, talent management, and/or artist booking<br>
+                               - Excellent written and verbal communication skills<br>
+                               - Proven ability to execute on consultative sales methodology<br>
+                               - Firm understanding of how to identify target customers, evaluate buyer interest, recognize decision-making processes, <br>
+                               &nbsp; &nbsp; handle objections, and close the business,<br>
+                               - Experience with Salesforce, PowerPoint, Word, Google Drive and web based presentation technology<br>
+                               - Strong desire to work in an innovative and dynamic company<br>
+                               - A rare competitive fire. You want to win and be part of our winning team</td>
+                            <td headers="LO">Niagra Falls</td>
+                            <td headers="VC">2</td></div>
+                        </tr>
+                        <tr>
+                            <td headers="JB"> <h6> <a href="#info">Senior Data Analyst</a> </h6> <div class="info">
+                                <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                               - University degree in business, life sciences or marketing<br>
+                               - Advanced Excel skills<br>
+                               - Knowledge of statistical analysis package (SPSS)<br>
+                               - Strong strategic thinking<br>
+                               - The ability to work in a fast-paced and rapidly changing work environment is essential<br>
+                               - Attention to planning, timelines, details, and execution<br>
+                               - Strong verbal and spoken communication skills<br>
+                               - Prior experience working for a market research firm would be an asset</td>
+                            <td headers="LO">London</td>
+                            <td headers="VC">2</td></div>
+                        </tr>
+                        <tr>
+                            <td headers="JB"> <h6><a href="#info">Senior Database Administrator</a> </h6> <div class="info">
+                                <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                               - Bachelor’s degree related to Computer Science, Information Systems or a related field.<br>
+                               - Microsoft Certifications: MCDBA<br>
+                               - Experience deploying and supporting enterprise business intelligence tools (i.e. SSRS, Tableau, etc...)<br>
+                               - Experience with cloud infrastructure such as Azure and AWS<br>
+                               - Knowledge of enterprise Information Technology concepts and processes (i.e. ITIL, COBIT, etc.)<br>
+                               - Detail-oriented with excellent organizational and communication skills.<br>
+                               - Self-starter qualities with excellent problem-solving skills<br>
+                               - Demonstrated initiative and maturity<br>
+                               - High organization skills and are an energetic team player<br>
+                               - The ability to set priorities and to accurately resolve day-to-day issues<br>
+                               - Adhere to and enforce Information Security Policies & Procedures<br>
+                               - The ability to work effectively with Network Administrators and Technical teams<br>
+                               - Familiarity with and experience in data warehouse development and implementations.<br>
+                               - Understanding of structured and unstructured data management capabilities and commercial solutions.<br>
+                               - Ability to work independently and with minimal management supervision.<br>
+                               - Ability to learn quickly and adapt to new circumstances.</td>
+                            <td headers="LO">Mississauga</td>
+                            <td headers="VC">1</td></div>
+                        </tr>
+                        <tr>
+                                <td headers="JB"> <h6> <a href="#info">Senior Manager, Information Systems</a> </h6> <div class="info">
+                                    <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                                   - College diploma or university degree in the field of computer science or information systems<br>
+                                   - 10+ years of progressive IT support experience<br>
+                                   - Warehouse or fulfilment experience<br>
+                                   - Networks and infrastructure management<br>
+                                   - Prior ERP (Infor Syteline) and CRM experience<br>
+                                   - Knowledge of IP networks, telephone administration, firewalls and cybersecurity<br>
+                                   - Project Management skills/qualifications<br>
+                                   - Proven skills in the set up and management of e-commerce platforms<br>
+                                   - Excellent planning and organizational skills plus the ability to manage multiple priorities<br>
+                                   - Strong analytical, problem-solving and troubleshooting skills to provide solutions to hardware and software problems<br>
+                                   &nbsp; &nbsp; on server, laptops and desktop computers<br>
+                                   - Ability to convey technical issues to non-technical people<br>
+                                   - Extensive experience in architecting and deploying Microsoft systems, including cloud services<br>
+                                   - Strong verbal and written communication skills<br>
+                                   - Desktop support & familiarity with ticketing systems<br>
+                                   - Asset management experience<br>
+                                   - License management experience<br>
+                                   - Experience managing a small team & efficient multi-tasking/time management ability<br>
+                                   - Strong Networking and Security skills</td>
+                                <td headers="LO">Orillia</td>
+                                <td headers="VC">1</td></div>
+                            </tr>
+                            <tr>
+                                <td headers="JB"> <h6> <a href="#info">Senior Product Manager</a> </h6> <div class="info">
+                                    <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                                   - May lead a small team of professionals with limited control over budget spending or HR management such as recruiting<br> 
+                                   &nbsp; &nbsp; or dismissal and supervises mentoring and coaching for team members<br>
+                                   - Typically implements short-term action plans rather than developing policy, process or strategy<br>
+                                   - Enhances or Improves methods or procedures and provides coaching to team members to ensure successful outcome<br>
+                                   - Has deep knowledge on one job area or broad knowledge on several job areas<br>
+                                   - Typically requires at least 8 years of related experience and a Bachelor's degree; or 6 years and a Master's degree; <br>
+                                   &nbsp; &nbsp; or a PhD with 3 years</td>
+                                <td headers="LO">Pembroke</td>
+                                <td headers="VC">3</td></div>
+                             </tr>
+                             <tr>
+                                <td headers="JB"> <h6> <a href="#info">Software Engineer</a> </h6><div class="info">
+                                    <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                                   - Comfortable communicating cross-functionally<br>
+                                   - Comfortable with end-to-end testing, exploratory testing and a proactive attitude.<br>
+                                   - Strong knowledge of QA methodologies and tools<br>
+                                   - Web services testing for REST API, Queues and Automation (Jenkins preferred) using standard framework<br>
+                                   - Knowledge of various software testing methods (Regression, Load/Stress, Code Coverage Analysis, Black/White <br>
+                                   &nbsp; &nbsp;box testing, Acceptance, Performance)<br>
+                                   - Experience creating effective test plans and BDD test cases<br>
+                                   - Experience in cross-platform client testing (iOS, Android, Chrome, IE, Safari, Firefox etc.)<br>
+                                   - Experience in creating test plans based on end-user scenarios<br>
+                                   - Excellent trouble-shooting and analytical skills.<br>
+                                   - Prior QA automation testing, quality assurance methodologies and processes experience.</td>
+                                <td headers="LO">Sarnia</td>
+                                <td headers="VC">1</td></div>
+                             </tr>
+                             <tr>
+                                <td headers="JB"> <h6> <a href="#info">Talent Coordinator</a> </h6> <div class="info">
+                                    <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                                    -4+ years of in-house recruiting experience, specific focus in technical recruiting for all levels of an organization from entry-level <br>
+                                    &nbsp; &nbsp;to senior-level positions
+                                    - The ability to authentically communicate (written and verbally) in a way that makes people feel heard and drawn to work with you are essential<br>
+                                    - Work well under pressure and embody grace under fire. And do it all while juggling multiple projects and reqs<br>
+                                    - Having exceptional judgement.<br>
+                                    - Outside the box thinking and have an arsenal of ideas on how to best engage and bring together talent, hiring managers, and the opportunity.<br> 
+                                    - Accountable for embodying the spirit of the company both internally and externally. <br>
+                                    - Eager to try new things, take chances and willing to contribute talents to building a dynamic team.</td>
+                                <td headers="LO">Woodstock</td>
+                                <td headers="VC">1</td></div>
+                             </tr>             
+                            
+                             <tr>
+                                <td headers="JB"> <h6> <a href="#info">Venue Success Manager</a> </h6> <div class="info">
+                                    <h5><b>SKILL SET AND QUALIFICATIONS</b> </h5> 
+                                   - Post-secondary education in Hotel and Restaurant Management, Hospitality, Business Administration, or related<br>
+                                   - Minimum of 2 years’ experience in event planning or event execution role<br>
+                                   - Ability to communicate effectively in writing as appropriate for the needs of the audience.<br>
+                                   - Ability to listen to and understand information and ideas presented through spoken words and sentences.<br>
+                                   - Proficiency in Microsoft Office applications, including Word, Powerpoint, Excel, Outlook<br>
+                                   - Knowledge of principles and processes for providing customer and personal services. This includes customer needs assessment,<br>
+                                    &nbsp; &nbsp;meeting quality standards for services, and evaluation of customer satisfaction.<br>
+                                   - The ability to come up with unusual or clever ideas about products, services or situations, or to develop creative ways to solve a problem.<br>
+                                   - Ability to work a variety of shifts, including days, evenings, weekends & holidays in order to meet the needs of the resort & the clients</td>
+                                <td headers="LO">Hamilton</td>
+                                <td headers="VC">3</td>
+                                </div>
+                             </tr>
+
+                  </tbody>        
+              </table> 
+             
+            </div>
+
+              
+                             
+            </main>
+        </div>
+            
+            <footer>                   <div id="flex-container">   
+
+                    <ul>
+                        <li><a href="events_form.html">Events Form</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li> <a href="feedback.html">Feedback</a></li>
+                        <li><a href="tickets.html">Tickets</a> </li>
+                        <li><a href="transit.html">Transit</a></li>
+                        <li><a href="dos.html">Regulations</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li> <a href="index.html">Signup</a></li>
+                        <li><a href="categories.html">Categories</a> </li>
+                        <li><a href="share.html">Share</a></li>
+                      </ul>
+
+                   © 2019 Eventify!</div>
+            </footer>
+
+        
+        <script src="car.js"> 
+        
+        
+        
+        </script>
+        
+        
+       
+    </body>
+
+</html>

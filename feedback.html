@@ -1,0 +1,144 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <title>Feedback</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images1/favicon.ico" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="styles/feedback.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img class="logo" src="images1/logo.webp" alt="logo">
+            <h6>Your feedback matters...</h6>
+
+        </header>
+        <nav id="nav1">
+            <ul> 
+              <li><a href="categories.html">Home</a></li>
+              <li><a href="collection.html">Events</a></li>
+              <li><a href="cagories.html">categories</a></li>
+              <li><a href="aboutus.html">About</a></li>
+              <li><a href="sponsors.html">Sponsors</a></li>
+                
+                
+            </ul>
+        </nav>
+
+        <div>
+           <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="images1/dollar11.jpg" style="width:100%" height="550">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="images1/feedback2.png" style="width:100%" height="550">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="images1/feebback3.jpg" style="width:100%" height="550" >
+              <div class="text"></div>
+            </div>
+            
+            </div>
+            <br>
+            
+          <div id="table-container">  
+       
+            <section>
+            <table >
+                <tr>
+                  <th>Kindly rate us upto what extent</th>
+                  <th><label for="reach">Rate from 1 to 5: </label></th> 
+                  
+                </tr>
+                <tr>
+                  <td> you were able to reach the venues for different events?</td>
+                  <td> <span id="reach1" onclick="selectstar1(this.id)" class="fa fa-star"></span>
+                    <span id="reach2" onclick="selectstar1(this.id)" class="fa fa-star"></span>
+                    <span id="reach3" onclick="selectstar1(this.id)" class="fa fa-star"></span>
+                    <span id="reach4" onclick="selectstar1(this.id)" class="fa fa-star"></span>
+                    <span id="reach5" onclick="selectstar1(this.id)" class="fa fa-star"></span><br><br></td>
+                  
+                </tr>
+                <tr>
+                  <td>You were able to find events near your location?</td>
+                  <td><label for="location"></label>
+                    <span id="loc1" onclick="selectstar2(this.id)" class="fa fa-star"></span>
+                    <span id="loc2" onclick="selectstar2(this.id)" class="fa fa-star"></span>
+                    <span id="loc3" onclick="selectstar2(this.id)" class="fa fa-star"></span>
+                    <span id="loc4" onclick="selectstar2(this.id)" class="fa fa-star"></span>
+                    <span id="loc5" onclick="selectstar2(this.id)" class="fa fa-star"></span><br><br></td>
+                 
+                </tr>
+                <tr>
+                  <td> you would like to share your experience with your friends?</td>
+                  <td><span id="share1" onclick="selectstar3(this.id)" class="fa fa-star"></span>
+                    <span id="share2" onclick="selectstar3(this.id)" class="fa fa-star"></span>
+                    <span id="share3" onclick="selectstar3(this.id)" class="fa fa-star"></span>
+                    <span id="share4" onclick="selectstar3(this.id)" class="fa fa-star"></span>
+                    <span id="share5" onclick="selectstar3(this.id)" class="fa fa-star"></span><br><br></td>
+                  
+                </tr>
+                <tr>
+                    <td>you found the transit links beneficial?</td>
+                    <td><label for="transit"></label>
+                        <span id="transit1" onclick="selectstar4(this.id)" class="fa fa-star"></span>
+                        <span id="transit2" onclick="selectstar4(this.id)" class="fa fa-star"></span>
+                        <span id="transit3" onclick="selectstar4(this.id)" class="fa fa-star"></span>
+                        <span id="transit4" onclick="selectstar4(this.id)" class="fa fa-star"></span>
+                        <span id="transit5" onclick="selectstar4(this.id)" class="fa fa-star"></span><br><br>
+        </td>
+                </tr>
+              </table>
+              
+                 </section>
+        <div id="suggestion">
+            <h3> Any other suggestions are highly welcomed</h3>
+            <form name="myform">
+                Comments:<br>
+                <textarea name="comments" placeholder="If you have any suggestions, please enter them here." id="suggestion_id" rows="13" cols="68">
+    </textarea>
+    <div> Email: <input id="email_id" type="email" placeholder="Enter email address"><br />
+        <input type="image" onclick="validateEmail()" src="images1/button_submit.png" id="image" alt="Submit" width="150" height="60"></div>
+        <span class="required">*</span><br />
+            </form>
+        </div>
+          
+        </div>
+
+    </div>
+    
+        <footer>
+            <ul>
+              <li><a href="events-form.html">Events Form</a></li>
+              <li><a href="aboutUs.html">About Us</a></li>
+              <li><a href="feedback.html">Feedback</a></li>
+              <li><a href="tickets.html">Tickets</a></li>
+              <li><a href="transit.html">Transit</a></li>
+              <li><a href="dos.html">Regulations</a></li>
+              <li><a href="careers.html">Careers</a></li>
+              <li><a href="index.html">Signup</a></li>
+              <li><a href="categories.html">Categories</a></li>
+            </ul>
+
+            &copy; 2019 Eventify!
+        </footer>
+
+    </div>
+</body>
+<script src="javascript/feedback.js"></script>
+
+
+</html>

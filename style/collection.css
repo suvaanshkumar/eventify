@@ -1,0 +1,167 @@
+/*main container to list the elements*/
+
+  .grid-container {
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    padding: 0px;
+  }
+  a img{
+      width: 200px;
+  }
+  /*This a wil comprise of the whole clickable element*/
+  a {
+      text-decoration: none;
+      color: rgb(252, 118, 77);
+  }
+  /*Title of event*/
+  .titleofevent{
+    color:darkslategrey;
+
+  }
+  /*changing size on Hover*/
+  .grid-item img:hover{
+    transform: scale(1.2);
+  }
+  /*changing color on hover*/
+  a:hover{
+      
+      color:rgb(128, 128, 128);
+      
+  }
+  .grid-item {
+    background-color:white;
+    border:0px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+  }  
+  
+  /*constant header*/
+  header{
+    background-image: url(../images/Greater_Toronto_Area_Wikivoyage_banner.jpg) ;
+    height: 90px;
+    width: inherit;
+    background-size: 100% 90px;
+    background-repeat: no-repeat;
+  }
+  header h1{
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+  header h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: lightslategrey;
+  }
+  #imagebanner img{
+    width: 100%;
+    height:300px;
+  }
+  h3{
+    margin: 0cm;
+  }
+  #flex-container{
+    background-color: rgba(0, 0, 0, 0.814);
+  }
+  #navul{
+    background-color: rgba(0, 0, 0, 0.814);
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0cm;
+    margin: 0;
+    /*width: 100%;*/
+    justify-content: space-between;
+    align-content: center;
+    
+  }
+  #navul li {
+    background-color: rgba(0, 0, 0, 0.814);
+    padding: 15px;
+    text-align: center;
+    flex-grow: 2; }
+  #navul a {
+    background-color: rgba(0, 0, 0, 0.814);
+    text-decoration: none;
+    color:white; 
+    font-style: italic;}
+  #navul ul{
+    background-color: rgba(0, 0, 0, 0.814);
+    flex-basis: 100%;
+  }
+  header img{
+    height: 90px;
+    float: left;
+  }
+  figcaption{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+  }
+  /*constant footer*/
+  footer{
+    margin: 0cm;
+    background-color:black;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: blanchedalmond;
+    height: 135px;
+  }
+  footer  a {
+    background-color: rgba(0, 0, 0, 0.814);
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  footer li{  
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    width: 20%; 
+  }
+  footer ul{
+    background-color: rgba(0, 0, 0, 0.814);
+    margin: 0px;
+    padding: 16px 0px;
+  }
+  footer  a:hover{
+    background-color: rgba(0, 0, 0, 0.814);
+    color: darkseagreen;
+  }
+/*for tablet screen*/
+@media only screen and (min-width: 601px) and (max-width: 800px){
+    figcaption {
+     
+    }
+    .grid-container {
+        background-image: linear-gradient(yellow,rgb(77, 77, 15));
+        display: grid;
+        grid-template-columns: auto auto ;
+        background-color: #2196F3;
+        padding: 0px;
+      }
+  }
+/*for mobile screen*/
+@media only screen and  (max-width: 600px){
+    figcaption {
+     
+    }
+    .grid-container {
+        background-image: linear-gradient(yellow,rgb(77, 77, 15));
+        display: grid;
+        grid-template-columns: auto  ;
+        background-color: #2196F3;
+        padding: 0px;
+      }
+  }
+  
+
+  
+    

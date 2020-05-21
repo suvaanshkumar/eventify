@@ -1,0 +1,431 @@
+  
+/* for normal laptop screens */
+
+
+
+#wrapper{
+    background-color:rgb(140, 168, 190);
+}
+
+pre  /* pre tag is used to maintain the font style as it is */
+{
+    color: red;
+}
+.required   /*class="required" is used to format mandatory fields */
+{
+    color: red;
+} 
+header img{
+    height: 100%;
+    }
+header{
+    background-image: url(../images1/Greater_Toronto_Area_Wikivoyage_banner.jpg);
+    height: 90px;
+    width: inherit;
+    background-size: 100% 90px;  /* this property is useful to stretch the image to the required height and width */
+    background-repeat: no-repeat;  
+  }
+
+  header h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    margin: -2cm;
+    padding-left: 5cm;
+}
+#image{
+    float:left;
+    padding-left: 10px;
+    
+}
+#signup{                 /*this id is useful for setting sign up section on to screen */
+    padding-left: 400px;
+    height:650px;
+    width: 550px;
+    padding-top: 100px;
+}
+.flex-container{
+    display: flex;
+   justify-content: space-around;
+
+}
+.flex-container div{
+   width: 150px;
+   margin: 0px;
+   text-align: center;
+   line-height: 150px;
+  }
+
+#nav3 li{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    margin: 2px;
+}
+#nav3 a{
+  color: rgb(121, 110, 89);
+  font-size: 5px;
+  text-decoration: none;
+  margin: 25px;
+}
+#nav3{
+  height: 10px;
+}
+ h4 {
+    font-style: italic;
+    font-size: 22px;
+    color: black;
+ font-weight: bold;
+ margin-bottom: 0px;
+}
+#nav1{
+    background-color: black;
+}
+#nav1 a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 15px;
+}
+#nav1 li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    width: 19%; 
+}
+#nav1 ul{
+    margin: 0px;
+    padding: 16px 0px;
+}
+#nav1 a:hover{
+    color: darkseagreen;
+}
+h1{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategray;
+    padding-right: 10px;
+}
+#nav2 li{
+      list-style-type: none;
+      display: inline-block;
+      text-decoration: none;
+      width: 30%;
+}
+#nav2 a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+#nav2{
+    height: 300px;
+    margin-top: -26px;
+}
+h3{
+    color: rgb(34, 33, 30);
+    font-size: 24px;
+}
+#nav3 li{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    width: 30%;
+}
+#nav3 a{
+  color: black;
+  font-weight: bold;
+
+  font-size: 20px;
+  text-decoration: none;
+}
+#nav3{
+  height: 300px;
+  margin-top: -26px;
+}
+#nav4 li{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    width: 30%;
+}
+#nav4 a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  text-decoration: none;
+}
+#nav4{
+  height: 300px;
+  margin-top: -26px;
+}
+#nav5 li{
+    list-style-image: none;
+    display: inline-block;
+    text-decoration: none;
+    width: 30%;
+}
+#nav5 a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  text-decoration: none;
+}
+#nav5{
+  height: 300px;
+  margin-top: -26px;
+}
+footer{
+    margin: 0cm;
+    background-color:black;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: blanchedalmond;
+    height: 135px;
+}
+
+footer ul a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 19px;
+
+}
+footer li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    width: 20%; 
+}
+ footer ul{
+    margin: 0px;
+    padding: 16px 0px;
+}
+
+footer  a:hover{
+    color: darkseagreen;    /* when mouse hovers hover footer content , color changes to darkseagreen*/
+}
+  section{
+    height: 1350px;
+    background-repeat: no-repeat;
+    width: inherit;
+    background-size: 100% 670px;
+    font-size: 25px;
+
+}
+#suggestion{
+    float: right;
+    border: solid black ;
+    width:400px;
+    margin-right: 25px;
+    margin-top: 25px;
+    font-size: 25px;
+    padding: 7px;
+
+
+}
+textarea{
+    width: 250px;
+}
+
+
+p{
+    float:left;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+aside{
+    font-weight: bold;
+    font-size: 20px;
+}
+.spacing{           /* this class is useful for managing space between different rows */
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-weight: bold;
+}
+    
+label {        
+
+    padding-left: 10px;
+    text-align: right;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;}
+h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0.5cm;  
+}
+ article {
+    padding-left: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#distext{
+    font-size: 24px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+fieldset{
+    border-color:rgb(195, 203, 218);
+    background-color:rgb(227, 231, 233);
+}
+
+/* For mobile screens */
+
+@media only screen and (max-width: 560px)
+{
+    header h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: black;
+    }
+    #signup{                 /*this id is useful for setting sign up section on to screen */
+        padding-left: 0px;
+        height:800px;
+        width: 300px;
+        padding-top: 10px;
+    }
+    
+    footer{            /* footer as a whole */
+        margin: 0cm;
+        background-color: black;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        color: blanchedalmond;
+        height: 135px;
+    }
+         footer a{                 /* footer text */
+        color: white;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    footer li{                    /* footer links */
+        list-style-type: none;
+        display: inline-block;
+        text-align: center;
+        width: 20%; 
+    }
+     footer ul
+     {
+        margin: 0px;
+        padding: 8px 0px;
+    } 
+    footer  a:hover          /* when mouse hovers hover footer content , color changes to darkseagreen*/
+    {
+        color: darkseagreen;
+    }
+   h2
+   {
+       font-size: 30px;
+    } 
+    
+    #image{
+        float: left;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        height: 100px;
+        width: 80px;
+    }  
+ h4 {
+    font-style: italic;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    margin-top: 0px;
+}
+#nav1{
+    background-color: rgba(0, 0, 0, 0.814);
+}
+#nav1 a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#nav1 li{
+    list-style-type: none;
+    text-align: center;
+    width: 15%; 
+}
+#nav1 ul{
+    margin: 0px;
+}
+
+#nav1 a:hover{
+    color: darkseagreen;
+}
+ .flex-container{
+     display: flex;
+    justify-content: space-around;
+
+ }
+ .flex-container div{
+    width: 150px;
+    margin: 0px;
+    text-align: center;
+    line-height: 150px;
+   }  
+    section{
+        height: 1350px;
+       }
+    #email{
+    margin-left: 4px;
+}
+fieldset{
+    padding: 0px;
+}
+#password{
+    padding-left: 5px;
+}
+  main{
+     height: 500px;
+    width: inherit;
+}
+  #display{
+      float:right;
+  }
+  
+  #button {
+      margin-left: 15em;
+     }
+    
+  .spacing{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-weight: bold;
+  }
+      
+  input {
+      margin-left: 0em;
+      margin-bottom: 0em;
+    }
+  h1{       /*heading for sign up form in mobile devices */
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 0.5cm;    
+  }
+   article {
+    padding-left: 10px;   
+      font-size: 15px;
+      font-weight: bold; 
+   }
+}
+  
+  

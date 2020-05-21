@@ -1,0 +1,395 @@
+/*adding height to header image*/
+header img{
+    height: 100%;
+}
+  
+  /*constant header*/
+header{
+    background-image: url(../images/Greater_Toronto_Area_Wikivoyage_banner.jpg) ;
+    height: 90px;
+    width: inherit;
+    background-size: 100% 90px;
+    background-repeat: no-repeat;
+}
+header h1{
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+header h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: lightslategrey;
+    }
+
+/*adding hover to images*/
+#history img:hover{
+     transform: scale(1.05);
+     opacity: 1.5;
+    }
+#join img:hover{
+    transform: scale(1.05);
+    opacity: 1.5;
+    }
+#sponsors img:hover{
+    transform: scale(1.05);
+    opacity: 1.5;
+    }
+#ourpresence img:hover{
+    transform: scale(1.05);
+    opacity: 1.5;
+    }
+/*adding style to images*/
+#history img{
+     height:100%;
+     opacity: 0.8;
+    }
+#join img{
+    height: 100%;
+    opacity: 0.8;
+    }
+#sponsors img{
+    height: 100%;
+    opacity: 0.8;
+    }
+#ourpresence img{
+    height: 100%;
+    opacity: 0.8;
+    }
+/*removing text decoration*/
+a {
+    text-decoration: none;
+    color: darkred;
+  }
+a:hover{
+    color: darkseagreen;
+  }
+
+main img{
+    width: 100%;
+}
+
+main{
+    height: fit-content;
+
+}
+article{
+    background-color: khaki;
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+    padding: 2em;
+}
+
+#imagebanner img{
+    width: 100%;
+    height:300px;
+}
+h3{
+    margin: 0cm;
+}
+  /*constant footer*/
+footer{
+    margin: 0cm;
+    background-color:black;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    height: 135px;
+  }
+#navul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: black;
+    padding: 0cm;
+    margin: 0;
+    
+    justify-content: space-between;
+    align-content: center;
+    
+}
+#navul li {
+    background-color: rgba(0, 0, 0, 0.814);
+    padding: 15px;
+    text-align: center;
+    flex-grow: 2;
+ }
+#navul a {
+    text-decoration: none;
+    color:white; 
+    font-style: italic;}
+#navul ul{
+    flex-basis: 100%;
+}
+footer ul a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 19px;
+}
+footer li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    width: 20%; 
+}
+ footer ul{
+    margin: 0px;
+    padding: 16px 0px;
+}
+
+footer  a:hover{
+    color: darkseagreen;
+}
+#aboutushyperlinks{
+    display: flex;
+    justify-content: center;
+}
+
+ 
+/*for mobile screen*/
+@media only screen and (max-width: 600px) {
+    #navul li {
+        background-color: blue;
+        padding: 15px;
+        text-align: center;
+        flex-grow: 1; }
+    #navul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 0cm;
+        margin: 0;
+        /*width: 100%;*/
+        justify-content: flex-end;
+        align-content: center;}
+    footer{
+        margin: 0cm;
+        background-color: rgba(0, 0, 0, 0.814);
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        color: blanchedalmond;
+        height: 135px;}
+    footer a{
+        color: white;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 15px;}
+    footer li{
+        list-style-type: none;
+        display: inline-block;
+        text-align: center;
+        width: 20%; }
+    footer ul{
+        margin: 0px;
+        padding: 8px 0px;
+        }
+    footer  a:hover{
+        color: darkseagreen;
+        }
+    #aboutushyperlinks{
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+} 
+/*adding our team*/
+.grid-containerOurteam {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5px;
+}
+.grid-itemOurteam{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    text-align: center;
+}
+.gridItem-containerourteamforimage {
+    position: relative;
+    width: 100%;
+  }
+  
+  .imagegriditemourteam {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlayourteam {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .gridItem-containerourteamforimage:hover .overlayourteam {
+    opacity: 1;
+  }
+  .textOurTeam {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+    /*for tablet screen*/
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+    #navul li {
+        background-color:black;
+        padding: 15px;
+        text-align: center;
+        flex-grow: 1; }
+    #navul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 0cm;
+        margin: 0;
+        justify-content: flex-end;
+        align-content: center;}
+    footer{
+        margin: 0cm;
+        background-color: black;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        color: blanchedalmond;
+        height: 135px;}
+    footer a{
+        color: white;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 15px;}
+    footer li{
+        list-style-type: none;
+        display: inline-block;
+        text-align: center;
+        width: 20%; }
+    footer ul{
+        margin: 0px;
+        padding: 8px 0px;
+        }
+        
+    footer  a:hover{
+        color: darkseagreen;
+        }
+    #aboutushyperlinks{
+        background-color: chartreuse;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+        /* 
+        when you would like to use the flex
+        #flex-container{
+            display: flex;
+    justify-content: space-around;    }*/
+    
+  }
+
+/* form styling */
+.form-joinus{
+	max-width: 700px;
+	padding: 20px 12px 10px 20px;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+.form-joinus-heading{
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 15px;
+	padding-bottom: 3px;
+}
+.form-joinus label{
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+.form-joinus label > span{
+	width: 100px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+.form-joinus span.required{
+	color:red;
+}
+.form-joinus .tel-number-field{
+	width: 40px;
+	text-align: center;
+}
+.form-joinus input.input-field, .form-joinus .select-field{
+	width: 48%;	
+}
+.form-joinus input.input-field, 
+.form-joinus .tel-number-field, 
+.form-joinus .textarea-field, 
+ .form-joinus .select-field{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	-moz-box-shadow: 1px 1px 4px #EBEBEB;
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 7px;
+	outline: none;
+}
+.form-joinus .input-field:focus, 
+.form-joinus .tel-number-field:focus, 
+.form-joinus .textarea-field:focus,  
+.form-joinus .select-field:focus{
+	border: 1px solid #0C0;
+}
+.form-joinus .textarea-field{
+	height:100px;
+	width: 55%;
+}
+.form-joinus input[type=submit],
+.form-joinus input[type=button]{
+	border: none;
+	padding: 8px 15px 8px 15px;
+	background: #FF8500;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.form-joinus input[type=submit]:hover,
+.form-joinus input[type=button]:hover{
+	background: #EA7B00;
+	color: #fff;
+}
+
+
+/*end*/ 
+
+
+     
